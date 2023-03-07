@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-springboot-gpt
+  description: cool beans
+  annotations:
+    argocd/app-name: backstage-springboot-gpt
+    backstage.io/kubernetes-id: backstage-springboot-gpt
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: schultzp2020/backstage-springboot-gpt
+spec:
+  type: website
+  lifecycle: production
+  owner: "janus-authors"
